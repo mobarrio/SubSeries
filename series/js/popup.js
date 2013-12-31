@@ -82,7 +82,7 @@ ShowDate = function(ms) {
   var fmt = now.getFullYear()+'-'+(now.getMonth()+1)+'-'+now.getDay() + ' ' + now.getHours()+':'+now.getMinutes()+':'+now.getSeconds(); 
   return(fmt);
 } 
- 
+
 ListarShowsEZTV = function(){
 	if(typeof(Storage)!=="undefined") { 
 		var Tags_EZTV = new Array();
