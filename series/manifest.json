@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Busquedas de torrentes y Subtitulos",
+  "description": "Esta extencion busca torrents de series en EZTV y subtitulos en Subtitulos.es",
+  "version": "1.0",
+
+  "icons" : 
+  {
+        "128" : "icon.png"
+  },
+
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+
+  "browser_action": {
+    "default_icon"  : "icon.png",
+    "default_popup" : "popup.html"
+  },
+
+  "content_security_policy": "script-src 'self' https://query.yahooapis.com; object-src 'self'"
+
+}

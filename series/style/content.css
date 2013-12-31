@@ -1,0 +1,132 @@
+*{
+	margin:0;
+	padding:0;
+}
+body 
+{
+	overflow: hidden;
+	overflow-x:hidden;
+	margin: 0px;
+	padding: 0px;
+	background-color: #E5ECF9; 
+}
+table 
+{ 
+	width:99%;
+	border-collapse:collapse; 
+	border: none;
+}
+.title, .footer {
+	font: 100% arial,sans-serif;
+	border-bottom:1px solid #36C;
+	text-decoration: none;
+	text-align:center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 22px;
+	margin-top:.5em;
+	margin-bottom:.5em;
+	color: #30C;
+	word-spacing: normal;
+	letter-spacing: 0;
+	line-height: 1em;
+}
+.footer {
+	border-top:1px solid #36C;
+	border-bottom:0;
+	margin-top:.5em;
+	margin-bottom: .5em;
+	font-size: 12px;
+}
+.bt, .imput-text
+{
+	-webkit-border-radius: 5px;
+	-webkit-box-align: center;
+	-webkit-rtl-ordering: logical;
+	-webkit-user-select: text;
+	color: #30C;
+	background-color: #C7D8FF;
+	cursor: pointer;
+	margin: 0 8px 0 0;
+	outline: medium none;
+	padding: 3px 1px;
+	vertical-align: middle;
+	white-space: nowrap;
+	display: inline-block;
+	position: relative;
+	border-color: #CCC #BBB #A0A0A0;
+	border-top: 1px solid #36C;
+	border-bottom: 1px solid #36C;
+	border-left: 1px solid #36C;
+	border-right: 1px solid #36C;
+	border-style: solid;
+	border-width: 1px;
+	border-image: initial;
+	border-width: 1px;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	box-sizing: border-box;
+	text-align: center;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	letter-spacing: normal;
+	word-spacing: normal;
+	font: 100% arial,sans-serif;
+	font-weight: bold;
+	font-size: 9px;
+	width: 80px;
+}
+.bt:hover      { border-color: #3366CC !important; }
+.bt:visited  { border-color:#CCCCCC #BBBBBB #A0A0A0; background: red; }
+.bt:active	{ border-color:#CCCCCC #BBBBBB #A0A0A0;	}
+.imput-text
+{
+	width: 350px;
+	background-color: white;
+	text-align: left;
+}
+.legend, .subtitle
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #30C;
+	text-align: left;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: 0;
+	line-height: 1em;
+}
+.subtitle
+{
+	text-align: center;
+	border-bottom: 1px solid #36C;
+	background-color: rgba(0, 61, 255, 0.2);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.updated
+{
+	text-align: center;
+	border: none;
+	background: transparent;
+	display:inline;
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 97%;
+	padding: .5em;
+	margin-top:1em;
+}
+.separator 
+{
+	display:block;
+	border-bottom:1px solid #36C;
+	//margin-top:1em;
+	//margin-bottom:1em;
+	margin-top:.2em;
+	margin-bottom:.2em;
+}
